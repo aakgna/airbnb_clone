@@ -99,7 +99,7 @@ const Modal: React.FC<ModalProps> = ({
                                             onClick={handleSecondaryAction}
                                         />
                                     )}
-                                    <Button 
+                                    <Button
                                         disabled={disabled}
                                         label={actionLabel}
                                         onClick={handleSubmit}
