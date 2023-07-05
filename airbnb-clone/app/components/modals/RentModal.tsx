@@ -95,7 +95,7 @@ function RentModal() {
 			.post("/api/listings", data)
 			.then(() => {
 				toast.success("Listing Created!");
-				router.refresh;
+				router.refresh();
 				reset();
 				setStep(STEPS.CATEGORY);
 				rentModal.onClose();
